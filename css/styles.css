@@ -1,0 +1,116 @@
+/**************************************************************/
+/* MKMLabs™ InteropAbility Framework Builder [prototype]      */
+/* Created by Dave Waller © MKMLabs™ 2011                     */
+/**************************************************************/
+
+@import url("reset.css");
+
+body {
+	font-family:'Lucida Grande', Helvetica, Verdana, Arial, Sans-Serif, sans-serif;
+	background-color:#999;
+}
+
+#wrapper{
+	width:940px;
+	margin:0px auto;
+}
+
+#header{
+	background-color:#FFF;
+	height:130px;
+	margin-bottom:3px;
+}
+
+	#header h2{
+		height:30px;
+		background-color:#1A171B;
+		font-size:12px;
+		font-weight:normal;
+		color:#FFF;
+		line-height:30px;
+		padding-left:10px;
+	}
+
+	#header h1{
+		margin:10px;
+		height:80px;
+		border-bottom:1px dotted #999;
+		background-image:url(img/mkmlabs_logo.png);
+		background-position:bottom left;
+		background-repeat:no-repeat;
+	}
+	
+		#header h1 span{
+			display:none;
+		}
+
+		
+#contents{
+	background-color:#FFF;
+	padding:10px;
+}
+	#contents h2{
+		font-size:15px;
+		color:#1A171B;
+		margin-bottom:5px;
+	}
+		#contents h2 span{
+			color:#999;
+		}
+		#contents a{
+			color:#007FA9;
+			text-decoration:none;
+		}
+			#contents a:hover{
+				text-decoration:underline;
+			}
+		#contents hr{
+			border:none;
+			height:1px;
+			border-bottom:1px dotted #999;
+		}
+	#contents ul li{
+		font-size:12px;
+		margin:2px 0px 6px 18px;
+		font-style:italic;
+		line-height:18px;
+	}
+	#contents ul li a{
+		font-size:14px;
+		font-weight:bold;
+		padding-bottom:4px;
+		font-style:normal;
+	}
+#contents form{
+	margin-top:20px;
+	font-size:13px;
+}
+	#contents form label{
+		display:inline-block;
+		width:110px;
+		text-align:right;
+	}
+		#contents form input{
+			margin-left:113px;
+		}
+		#contents form input.text{
+			margin-left:0px;
+		}
+#right{
+	margin-top:20px;
+}
+
+#footer{
+	height:40px;
+	background-color:#1A171B;
+	color:#999;
+	background-image:url(img/footer_bg.png);
+	background-position:right center;
+	background-repeat:no-repeat;
+}
+	#footer p{
+		font-size:12px;
+		line-height:40px;
+		margin:0px;
+		padding:0px 0px 0px 10px;
+	}
