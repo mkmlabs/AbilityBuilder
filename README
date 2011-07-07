@@ -1,0 +1,12 @@
+/**************************************************************/
+/* MKMLabs™ InteropAbility Framework Builder [prototype]      */
+/* Created by Dave Waller © MKMLabs™ 2011                     */
+/**************************************************************/
+
+This project is a simple PHP / MySQL application to provide a web accessible
+user interface for the creation of ability and competency frameworks based on
+the InteropAbility Draft Specification.
+
+MKMLabs - http://www.mkmlabs.com/
+InteropAbility - http://www.interopability.org
+
