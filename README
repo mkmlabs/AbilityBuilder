@@ -1,6 +1,6 @@
 /**************************************************************/
-/* MKMLabs™ InteropAbility Framework Builder [prototype]      */
-/* Created by Dave Waller © MKMLabs™ 2011                     */
+/* MKMLabs InteropAbility Framework Builder [prototype]       */
+/* Created by Dave Waller � MKMLabs 2011                      */
 /**************************************************************/
 
 This project is a simple PHP / MySQL application to provide a web accessible
@@ -10,3 +10,12 @@ the InteropAbility Draft Specification.
 MKMLabs - http://www.mkmlabs.com/
 InteropAbility - http://www.interopability.org
 
+Installation Instructions
+
+1. Create a new database and use "abilitybuilder.sql" to populate it with
+the database structure and 2 sample frameworks.
+
+2. Edit ".config/config.php" and add your own database location, username,
+password and database name.
+
+3. That's it! You should be ready to go.
